@@ -1,0 +1,10 @@
+[tasks.watch]
+script = [
+ "systemfd --no-pid -s http::3000 -- cargo watch -x run"
+]
+
+[tasks.format]
+description = "Runs the cargo rustfmt plugin."
+install_crate = "rustfmt"
+command = "cargo"
+args = ["fmt", "--", "--write-mode=overwrite"]

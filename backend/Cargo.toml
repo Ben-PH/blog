@@ -7,3 +7,14 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+actix = "0.9.0"
+actix-web = "2.0.0"
+listenfd = "0.3.3"
+actix-rt = "1.1.0"
+env_logger = "0.7.1"
+actix-identity = "0.2.1"
+actix-session = "0.3.0"
+lazy_static = "1.4.0"
+tera = "1.2.0"
+serde_derive = "1.0.106"
+serde = "1.0.106"
